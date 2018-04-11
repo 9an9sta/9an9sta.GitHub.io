@@ -1,0 +1,241 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+
+	.header-nav
+		text-align: center
+		li
+			padding-left: 20px
+
+	.header-soc ul li
+		padding-left: 10px
+
+	.about-header
+		margin-top: 120px
+
+	.portfolio-middle-right-item
+		height: 237px
+	.portfolio-big-item
+		height: 485px
+
+	.portfolio-small-item-hover
+		top: 90px
+
+	.portfolio-big-item-hover
+		top: 200px !important
+
+	.services-item-descr
+		top: 150px
+
+	.services-item-descr-small
+		top: 100px !important
+
+	.services-item-hover-small
+		top: 40px
+
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+
+	.about-main-img
+		margin-top: 170px
+
+	.portfolio-small-item-hover
+		top: 160px
+	.no-wrap
+		padding: 0
+		margin: 0
+
+	.middle-hover
+		top: 100px !important
+
+	.services-item-hover-price
+		margin: 8px 0
+
+	.services-item-hover
+		top: 70px
+
+	.services-item-hover-small
+		top: 35px
+
+	.logo
+		img
+			width: 100px
+	.header-nav
+		text-align: right
+		li
+			padding-left: 5px
+
+	.header-soc ul li
+		padding-left: 5px
+
+	.review-item
+		text-align: center
+
+	.reviews-carousel
+		.owl-nav
+			> div
+				&.owl-next
+					position: relative
+					float: right
+					left: -50px
+				&.owl-prev
+					left: -180px
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+
+	.services-item-descr
+		z-index: 100
+		a
+			color: #fff !important
+			&:hover
+				text-decoration: none
+	.services-item 
+		width: 60%
+		margin: auto
+		&:before
+			width: 60%
+			left: 20%
+		&:hover
+			.services-item-hover
+				visibility: hidden
+			.services-item-descr, .services-item-descr-small
+				display: block
+			&::before
+				content: ''
+				position: absolute
+				top: 0
+				left: 20%
+				width: 60%
+				height: 100%
+				background-color: #000
+				opacity: .27
+
+	.review-text
+		margin: auto
+	.footer-btn
+		margin-bottom: 40px
+
+	.footer-inf
+		text-align: center
+
+	.footer-header
+		text-align: left
+		font-size: 30px
+
+	.review-descr
+		margin-bottom: 80px
+	.portfolion-xs-descr-small
+		top: 70px !important
+
+	.portfolio-xs-link-small
+		top: 110px !important
+
+	.portfolion-xs-descr, .portfolio-xs-link
+		position: absolute
+		top: 175px
+		z-index: 100
+		width: 60%
+		text-align: center
+		font-family: OpenSansBold
+		font-size: 24px
+		a
+			color: #fff
+			&:hover
+				text-decoration: none
+
+	.portfolio-xs-link
+		top: 210px
+		font-size: 16px
+		a
+			color: #fff
+			opacity: .8
+			margin-right: 5px
+			&:hover
+				text-decoration: none
+				opacity: 1
+		.fa
+			color: #fff
+
+	.portfolio-middle-item
+		img
+			height: 500px
+
+
+	.portfolio-small-item, .portfolio-middle-item, .portfolio-big-item, .portfolio-middle-right-item
+		width: 60%
+		margin: auto
+
+	.portfolio-small-item, .portfolio-big-item, .portfolio-middle-item, .portfolio-middle-right-item
+		&:hover
+			&::before
+				margin: auto
+				width: 60%
+				content: ''
+				position: absolute
+				top: 0
+				left: 20%
+				right: 20%
+				height: 100%
+				background-color: #000
+				opacity: .71
+				z-index: 10
+			.portfolio-small-item-hover, .portfolio-middle-item-hover, .portfolio-big-item-hover
+				visibility: hidden
+		&::before
+			margin: auto
+			width: 60%
+			content: ''
+			position: absolute
+			top: 0
+			left: 20%
+			right: 20%
+			height: 100%
+			background-color: #000
+			opacity: .71
+			z-index: 10
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
